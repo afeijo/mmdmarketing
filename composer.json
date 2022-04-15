@@ -21,7 +21,9 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/devel": "^4.1",
+        "drupal/facebook_pixel": "^2.0@RC",
         "drupal/flood_control": "^2.2",
+        "drupal/google_tag": "^1.5",
         "drupal/honeypot": "^2.0",
         "drupal/pathauto": "^1.8",
         "drush/drush": "^10.6"
