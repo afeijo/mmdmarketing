@@ -1,0 +1,67 @@
+uuid: 7322590b-0e82-4e16-bd36-1ba4607a9a6d
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - media.type.image
+    - node.type.article
+    - node.type.page
+    - node.type.post
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contextual
+    - field_ui
+    - file
+    - media
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'administer media display'
+  - 'administer media form display'
+  - 'administer url aliases'
+  - 'create article content'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create post content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any image media'
+  - 'delete any post content'
+  - 'delete article revisions'
+  - 'delete media'
+  - 'delete own article content'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any image media'
+  - 'edit any post content'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own post content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert post revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view post revisions'
+  - 'view the administration theme'

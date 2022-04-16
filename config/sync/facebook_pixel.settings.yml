@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: uWCYoez96nX2cwvfGvSPrOuehWpgXxnqRRuhhoCGiu8
+langcode: pt-br
+facebook_id: '789780199077053'
+visibility:
+  request_path_mode: all_pages
+  request_path_pages: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/node/*/*\r\n/user/*/*\r\n/user/login"
+  user_role_mode: all_roles
+  user_role_roles: {  }
+privacy:
+  donottrack: true
+  fb_disable_advanced: false
+  eu_cookie_compliance: false
+  disable_noscript_img: false

@@ -1,0 +1,22 @@
+uuid: eb2b7ca0-3be8-4fce-bf5a-41b9d1c0703e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: basicas
+label: Basicas
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  0de1ea91-9071-451a-ba01-2b5bb259e977:
+    id: node_type
+    negate: false
+    uuid: 0de1ea91-9071-451a-ba01-2b5bb259e977
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

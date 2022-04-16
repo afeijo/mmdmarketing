@@ -1,0 +1,11 @@
+uuid: 5a169b62-6c74-4e10-a982-307fb4d197b4
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.categoria
+id: taxonomy_term.categoria
+target_entity_type_id: taxonomy_term
+target_bundle: categoria
+default_langcode: site_default
+language_alterable: false

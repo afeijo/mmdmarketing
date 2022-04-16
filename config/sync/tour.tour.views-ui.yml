@@ -1,0 +1,88 @@
+uuid: a671b292-25fa-45c1-98a8-d138bc0ed884
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - views_ui
+_core:
+  default_config_hash: XIYL1KF7ND2XQRa5AxvEcp8vgCN2kUGiuBNhCgxrPME
+id: views-ui
+label: 'Página de edição de view'
+module: views_ui
+routes:
+  -
+    route_name: entity.view.edit_form
+  -
+    route_name: entity.view.edit_display_form
+tips:
+  views-main:
+    id: views-main
+    plugin: text
+    label: 'Gerenciar as configurações de view'
+    weight: 1
+    body: 'Ver ou editar as configurações.'
+  views-ui-displays:
+    id: views-ui-displays
+    plugin: text
+    label: 'Exibições nesta view'
+    weight: 2
+    selector: '#views-display-top'
+    body: 'Uma exibição é um modo de mostrar os resultados, exemplo, como uma página ou um bloco. Uma view pode conter múltiplas exibições, que são listadas aqui. A exibição ativa está destacada.'
+  views-ui-view-admin:
+    id: views-ui-view-admin
+    plugin: text
+    label: 'Administração da view'
+    weight: 3
+    position: right
+    selector: '#views-display-extra-actions'
+    body: 'Realizar tarefas administrativas, incluindo adicionar uma descrição e clicar um clone. Clique no botão drop-down para ver as opções disponíveis.'
+  views-ui-format:
+    id: views-ui-format
+    plugin: text
+    label: 'Formato de saída'
+    weight: 4
+    selector: .views-ui-display-tab-bucket.format
+    body: 'Defina como exibir os resultados. Por exemplo, escolha <em>Conteúdo</em> para exibir cada item completamente, usando suas respectivas configurações de visualização. Ou escolha <em>Campos</em>, que permite a você exibir apenas alguns campos específicos para cada resultado. Formatos adicionais podem ser incluídos através de módulos que <em>estendam</em> as funcionalidades básicas do Drupal.'
+  views-ui-fields:
+    id: views-ui-fields
+    plugin: text
+    label: Campos
+    weight: 5
+    selector: .views-ui-display-tab-bucket.field
+    body: 'Se essa view usa campos, eles são listados aqui. Você pode clicar em um campo para configurá-lo.'
+  views-ui-filter:
+    id: views-ui-filter
+    plugin: text
+    label: 'Filtrar sua view'
+    weight: 6
+    selector: .views-ui-display-tab-bucket.filter
+    body: 'Adicione filtros para limitar os resultados exibidos. Por exemplo, para mostrar apenas conteúdo que esteja <em>publicado</em>, você deve adicionar um filtro para <em>Publicado</em> e selecionar <em>Sim</em>.'
+  views-ui-filter-operations:
+    id: views-ui-filter-operations
+    plugin: text
+    label: 'Filtrar ações'
+    weight: 7
+    selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
+    body: 'Adicionar, rearranjar ou remover filtros.'
+  views-ui-sorts:
+    id: views-ui-sorts
+    plugin: text
+    label: 'Critérios de ordenação'
+    weight: 8
+    selector: .views-ui-display-tab-bucket.sort
+    body: 'Controlar a ordem em que os resultados são exibidos. Clique em uma regra de ordenação para configurá-la.'
+  views-ui-sorts-operations:
+    id: views-ui-sorts-operations
+    plugin: text
+    label: 'Ações de ordenação'
+    weight: 9
+    selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
+    body: 'Adicionar, rearranjar ou remover regras de ordenação.'
+  views-ui-preview:
+    id: views-ui-preview
+    plugin: text
+    label: Pré-visualizar
+    weight: 10
+    position: right
+    selector: '#preview-submit'
+    body: 'Mostrar uma pré-visualização da saída da view.'

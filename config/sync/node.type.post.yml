@@ -1,0 +1,17 @@
+uuid: a23a126a-767f-4068-8ee5-bf4de5e774f1
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Post
+type: post
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

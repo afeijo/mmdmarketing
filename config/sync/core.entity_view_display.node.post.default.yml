@@ -1,0 +1,39 @@
+uuid: 65ecb17d-1a41-4fa5-8ecd-5330330e74ec
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.post.body
+    - field.field.node.post.field_foto
+    - node.type.post
+  module:
+    - text
+    - user
+id: node.post.default
+targetEntityType: node
+bundle: post
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_foto:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

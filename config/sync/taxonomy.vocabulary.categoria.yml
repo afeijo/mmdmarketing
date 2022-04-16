@@ -1,0 +1,8 @@
+uuid: 5f9c2af8-6451-4264-a35e-bc93efc8e1c5
+langcode: pt-br
+status: true
+dependencies: {  }
+name: Categoria
+vid: categoria
+description: 'Categoria de imagens'
+weight: 0

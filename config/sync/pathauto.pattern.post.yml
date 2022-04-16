@@ -1,0 +1,22 @@
+uuid: 55291dc8-1640-48d7-9907-427ed4e88191
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: post
+label: Posts
+type: 'canonical_entities:node'
+pattern: 'post/[node:title]'
+selection_criteria:
+  30ea7b00-f802-41e6-baac-5095628d205c:
+    id: node_type
+    negate: false
+    uuid: 30ea7b00-f802-41e6-baac-5095628d205c
+    context_mapping:
+      node: node
+    bundles:
+      post: post
+selection_logic: and
+weight: -5
+relationships: {  }
