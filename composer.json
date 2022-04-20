@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
+        "drupal/css_editor": "^2.0",
         "drupal/devel": "^4.1",
         "drupal/facebook_pixel": "^2.0@RC",
         "drupal/flood_control": "^2.2",
