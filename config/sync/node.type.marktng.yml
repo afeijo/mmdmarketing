@@ -1,0 +1,17 @@
+uuid: 2ca28a6c-e28d-4d20-8321-e68f73bb0eb2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Marktng
+type: marktng
+description: ''
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

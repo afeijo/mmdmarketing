@@ -9,7 +9,7 @@ features:
   favicon: true
   node_user_picture: false
 logo:
-  path: ''
+  path: 'public://mmd-digital_0.jpg'
   use_default: false
 third_party_settings:
   shortcut:

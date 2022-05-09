@@ -1,0 +1,10 @@
+uuid: 4922c555-d1a4-4002-878d-b8ef2b7b7e2f
+langcode: pt-br
+status: true
+dependencies: {  }
+id: marktng
+label: Marktng
+icon_uuid: null
+icon_default: null
+description: 'Campos de uso do módulo Marketing'
+behavior_plugins: {  }

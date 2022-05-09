@@ -8,6 +8,7 @@ id: feedback
 label: 'Entre em contato'
 recipients:
   - mari@mindcore.org
+  - marimarketingdigital24@gmail.com
 reply: ''
 weight: 0
 message: 'Sua mensagem foi enviada.'

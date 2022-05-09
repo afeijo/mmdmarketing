@@ -1,0 +1,40 @@
+uuid: 57d1663c-4054-47a9-b4c2-d056487c6f82
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.marktng.body
+    - field.field.node.marktng.field_marktng
+    - node.type.marktng
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.marktng.default
+targetEntityType: node
+bundle: marktng
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_marktng:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

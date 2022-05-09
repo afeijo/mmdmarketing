@@ -1,0 +1,11 @@
+uuid: 8abaf521-aa8c-423c-a817-df1603b8d6c8
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.marktng
+id: node.marktng
+target_entity_type_id: node
+target_bundle: marktng
+default_langcode: site_default
+language_alterable: false

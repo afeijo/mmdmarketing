@@ -1,0 +1,25 @@
+uuid: 174762d2-3520-4ab1-9229-895f651509fd
+langcode: pt-br
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bf4fc0cb-712e-436f-8206-a642eb922efc'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: customcss
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:bf4fc0cb-712e-436f-8206-a642eb922efc'
+settings:
+  id: 'block_content:bf4fc0cb-712e-436f-8206-a642eb922efc'
+  label: 'Custom CSS'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

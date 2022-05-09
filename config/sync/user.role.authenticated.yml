@@ -3,12 +3,27 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.page.default
     - filter.format.basic_html
+    - filter.format.full_html
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.article
+    - node.type.page
   module:
     - comment
     - contact
+    - file
     - filter
+    - flood_control
+    - google_tag
+    - layout_builder
     - media
+    - node
+    - path
     - search
     - shortcut
     - system
@@ -21,10 +36,49 @@ is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access files overview'
+  - 'access flood unblock'
+  - 'access media overview'
   - 'access shortcuts'
+  - 'access site in maintenance mode'
   - 'access site-wide contact form'
+  - 'administer google tag manager'
+  - 'administer media'
+  - 'administer media types'
+  - 'administer menu'
+  - 'administer nodes'
+  - 'administer url aliases'
+  - 'configure all page node layout overrides'
+  - 'configure any layout'
+  - 'configure editable page node layout overrides'
+  - 'create and edit custom blocks'
+  - 'create article content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create image media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create url aliases'
+  - 'create video media'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own audio media'
+  - 'link to any page'
   - 'post comments'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'view all revisions'
+  - 'view article revisions'
   - 'view media'
+  - 'view own unpublished content'
+  - 'view page revisions'

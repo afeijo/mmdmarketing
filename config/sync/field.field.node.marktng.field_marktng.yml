@@ -1,0 +1,31 @@
+uuid: 6590cfb9-dd5d-41c8-9dd8-ec23c7e67dca
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_marktng
+    - node.type.marktng
+    - paragraphs.paragraphs_type.marktng
+  module:
+    - entity_reference_revisions
+id: node.marktng.field_marktng
+field_name: field_marktng
+entity_type: node
+bundle: marktng
+label: Marktng
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      marktng: marktng
+    negate: 0
+    target_bundles_drag_drop:
+      marktng:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

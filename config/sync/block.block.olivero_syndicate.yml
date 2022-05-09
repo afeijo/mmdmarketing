@@ -1,6 +1,6 @@
 uuid: 3eca3ee5-8b8e-4100-a9b7-aef1e26bf329
 langcode: pt-br
-status: true
+status: false
 dependencies:
   module:
     - node

@@ -20,11 +20,13 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   facebook_pixel: 0
   field: 0
   field_ui: 0
   file: 0
   filter: 0
+  flood_control: 0
   google_tag: 0
   help: 0
   history: 0
@@ -34,6 +36,7 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
+  marktng: 0
   media: 0
   media_library: 0
   menu_link_content: 0
@@ -57,6 +60,7 @@ module:
   views_ui: 0
   pathauto: 1
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   bartik: 0
