@@ -29,7 +29,8 @@
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.8",
         "drupal/stage_file_proxy": "^1.2",
-        "drush/drush": "^10.6"
+        "drush/drush": "^10.6",
+        "kint-php/kint": "^4.1"
     },
     "conflict": {
         "drupal/drupal": "*"
