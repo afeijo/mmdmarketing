@@ -25,6 +25,7 @@
         "drupal/facebook_pixel": "^2.0@RC",
         "drupal/flood_control": "^2.2",
         "drupal/google_tag": "^1.5",
+        "drupal/gutenberg": "^2.7",
         "drupal/honeypot": "^2.0",
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.8",
