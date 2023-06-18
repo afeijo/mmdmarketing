@@ -9,8 +9,7 @@ module:
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor: 0
-  color: 0
+  ckeditor5: 0
   comment: 0
   config: 0
   contact: 0
@@ -20,7 +19,6 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
-  entity_reference_revisions: 0
   facebook_pixel: 0
   field: 0
   field_ui: 0
@@ -28,6 +26,7 @@ module:
   filter: 0
   flood_control: 0
   google_tag: 0
+  gutenberg: 0
   help: 0
   history: 0
   image: 0
@@ -36,17 +35,16 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
-  marktng: 0
   media: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  mysql: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
-  rdf: 0
   search: 0
   shortcut: 0
   system: 0
@@ -60,10 +58,8 @@ module:
   views_ui: 0
   pathauto: 1
   views: 10
-  paragraphs: 11
   standard: 1000
 theme:
-  bartik: 0
-  seven: 0
   olivero: 0
+  claro: 0
 profile: standard

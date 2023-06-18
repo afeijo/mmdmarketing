@@ -1,0 +1,31 @@
+uuid: 765c5410-1293-4598-bd1f-44604d1cfc6c
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - block_content.type.reusable_block
+    - core.entity_view_mode.block_content.reusable_block
+    - field.field.block_content.reusable_block.body
+  module:
+    - gutenberg
+  enforced:
+    module:
+      - gutenberg
+_core:
+  default_config_hash: SBJIE09BTiRCwFOuLIhkS10jRR1xZ-xudPsdqThfqLc
+id: block_content.reusable_block.reusable_block
+targetEntityType: block_content
+bundle: reusable_block
+mode: reusable_block
+content:
+  body:
+    type: gutenberg_text
+    label: hidden
+    settings:
+      format: gutenberg
+      content_only: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

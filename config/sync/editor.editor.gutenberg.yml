@@ -1,0 +1,27 @@
+uuid: 9973afdb-8ae5-425b-9266-fcf9bd38bb92
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - filter.format.gutenberg
+  module:
+    - gutenberg
+  enforced:
+    module:
+      - gutenberg
+_core:
+  default_config_hash: v72S6pxc_3CvTSaQhT9gH2hm7xWLXzc0MA14mmprxX8
+format: gutenberg
+editor: gutenberg
+settings:
+  plugin_settings:
+    editor__settings__plugin_settings__active_tab: edit-editor-settings-plugins-drupalimage
+  plugins: {  }
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

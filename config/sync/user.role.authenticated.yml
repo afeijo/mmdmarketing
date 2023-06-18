@@ -3,7 +3,6 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - core.entity_view_display.node.page.default
     - filter.format.basic_html
     - filter.format.full_html
     - media.type.audio
@@ -42,7 +41,8 @@ permissions:
   - 'access shortcuts'
   - 'access site in maintenance mode'
   - 'access site-wide contact form'
-  - 'administer google tag manager'
+  - 'administer flood unblock'
+  - 'administer google_tag_container'
   - 'administer media'
   - 'administer media types'
   - 'administer menu'
@@ -68,6 +68,7 @@ permissions:
   - 'edit any remote_video media'
   - 'edit any video media'
   - 'edit own audio media'
+  - 'flood unblock ips'
   - 'link to any page'
   - 'post comments'
   - 'revert all revisions'
