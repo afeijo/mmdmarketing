@@ -30,6 +30,7 @@
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.8",
         "drupal/stage_file_proxy": "^1.2",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
         "kint-php/kint": "^4.1"
     },
