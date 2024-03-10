@@ -29,6 +29,7 @@
         "drupal/honeypot": "^2.0",
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.8",
+        "drupal/quick_node_clone": "^1.18",
         "drupal/stage_file_proxy": "^1.2",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
