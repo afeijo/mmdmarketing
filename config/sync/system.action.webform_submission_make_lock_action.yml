@@ -1,0 +1,13 @@
+uuid: 8a825380-eea5-450b-8cf1-cf4155e88d64
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - webform
+_core:
+  default_config_hash: MKmZlPRk3OJKNcYdYxSeZGQUh7LMah6MRShfkzch4bk
+id: webform_submission_make_lock_action
+label: 'Travar submissão'
+type: webform_submission
+plugin: webform_submission_make_lock_action
+configuration: {  }

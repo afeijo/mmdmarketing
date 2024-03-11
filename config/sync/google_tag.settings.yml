@@ -1,2 +1,3 @@
+langcode: pt-br
 use_collection: false
 default_google_tag_entity: primary

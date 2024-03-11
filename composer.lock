@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c7c5cccec600b6570c46e4c4edf0a26",
+    "content-hash": "46877e1e649c54f06c0fb166e99cec35",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2876,6 +2876,54 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/honeypot",
                 "issues": "https://www.drupal.org/project/issues/honeypot"
+            }
+        },
+        {
+            "name": "drupal/page_attributes",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/page_attributes.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/page_attributes-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "1b33877199fcf08eeb668e5798564b391610ccb7"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1687266923",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "afeijo",
+                    "homepage": "https://www.drupal.org/user/165811"
+                },
+                {
+                    "name": "cristianodemari",
+                    "homepage": "https://www.drupal.org/user/3639691"
+                }
+            ],
+            "description": "This module allows you to add a custom class for the a node body or article tags.",
+            "homepage": "https://www.drupal.org/project/page_attributes",
+            "support": {
+                "source": "https://git.drupalcode.org/project/page_attributes"
             }
         },
         {

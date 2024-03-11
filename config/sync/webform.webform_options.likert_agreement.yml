@@ -1,0 +1,19 @@
+uuid: 19519caa-8d06-4cbe-ab20-27601a4ef3a8
+langcode: pt-br
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: nPp-CfMKrP0yDMtyO0wQRwawEqaJVAPzQapinXmDgyU
+id: likert_agreement
+label: 'Likert: Acordo'
+category: Likert
+likert: true
+options: |
+  1: Discordo fortemente
+  2: Discordo
+  3: Nem concordo nem discordo
+  4: Concordo
+  5: Concordo fortemente

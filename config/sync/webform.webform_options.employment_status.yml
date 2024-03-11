@@ -1,0 +1,19 @@
+uuid: cd175261-d788-4c11-9562-3e8a0f0af5eb
+langcode: pt-br
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8MCmsz_csdJkVItxI8g_s4zp2PM285YqCy_gWTzOLPw
+id: employment_status
+label: 'Situação de emprego'
+category: Demográfico
+likert: false
+options: |
+  'Tempo Integral': 'Tempo Integral'
+  'Tempo Parcial': 'Tempo Parcial'
+  'Militar': 'Militar'
+  Desempregado: Desempregado
+  Aposentado: Aposentado

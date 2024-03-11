@@ -14,6 +14,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  css_editor: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -42,9 +43,11 @@ module:
   mysql: 0
   node: 0
   options: 0
+  page_attributes: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  quick_node_clone: 0
   search: 0
   shortcut: 0
   system: 0
@@ -56,6 +59,8 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webform: 0
+  webform_ui: 0
   pathauto: 1
   views: 10
   standard: 1000

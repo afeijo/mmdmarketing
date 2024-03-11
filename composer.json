@@ -27,6 +27,7 @@
         "drupal/google_tag": "^2",
         "drupal/gutenberg": "^2.7",
         "drupal/honeypot": "^2.0",
+        "drupal/page_attributes": "^2.0",
         "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.8",
         "drupal/quick_node_clone": "^1.18",
