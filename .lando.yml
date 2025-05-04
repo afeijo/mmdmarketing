@@ -1,0 +1,82 @@
+name: mmdmarketing
+recipe: drupal10
+config:
+  composer_version: '2'
+  php: '8.3'
+  via: nginx
+  drush: ^11
+  webroot: web
+  xdebug: false
+  index: false
+  edge: false
+  cache: false
+env_file:
+  - .lando/.env
+services:
+  appserver:
+    type: php:8.3
+    build_as_root:
+      - apt-get update -y
+      - apt-get install -y ruby-sass
+      - gem install sass sass-listen
+    overrides:
+      environment:
+        PHP_IDE_CONFIG: serverName=mmdmarketing.lndo.site
+        PHPREDIS_VERSION: '5.x'
+        DRUSH_OPTIONS_URI: "https://mmdmarketing.lndo.site"
+  database:
+    type: mariadb:10.5
+    portforward: ${LANDO_APACHE_PORT}
+    config:
+      database: .lando/my.cnf
+    creds:
+      database: drupal10
+      username: drupal10
+      password: drupal10
+      host: database
+      port: 3306
+  cache:
+    type: redis:5.0
+    portforward: true
+    persist: true
+  node:
+    type: node:18
+  pma:
+    type: phpmyadmin
+    proxy:
+      appserver:
+        - pma.mmdmarketing.lndo.site
+
+tooling:
+  dcg:
+    service: appserver
+    cmd: /app/vendor/bin/dcg
+  phpcs:
+    service: appserver
+    cmd: '/app/vendor/bin/phpcs --standard=Drupal,DrupalPractice'
+  composer:
+    service: appserver
+    description: Run composer commands
+    cmd:
+      - php -dmemory_limit=-1 /usr/local/bin/composer
+  redis-cli:
+    service: cache
+  node:
+    service: node
+  npm:
+    service: node
+  yarn:
+    service: node
+  dr:
+    service: appserver
+    cmd: drush
+    env:
+      DRUSH_OPTIONS_URI: "http://mmdmarketing.lndo.site"
+  sass:
+    service: appserver
+    description: Compile SASS to CSS
+    cmd: 'cd /app/web/themes/custom/mmd;sass scss/style.scss:css/style.css'
+  sassw:
+    service: appserver
+    description: Compile SASS to CSS and watch for changes
+    cmd: 'cd /app/web/themes/custom/mmd;sass -w scss/style.scss:css/style.css -w'
