@@ -1,0 +1,10 @@
+name: Aff Trends
+type: module
+description: 'Track and manage trending affiliate products.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:field
+  - drupal:text
+  - drupal:link
+  - drupal:user

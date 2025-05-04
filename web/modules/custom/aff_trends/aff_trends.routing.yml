@@ -1,0 +1,7 @@
+aff_trends.product_list:
+  path: '/admin/aff-trends'
+  defaults:
+    _controller: '\Drupal\aff_trends\Controller\AffProductController::overview'
+    _title: 'Affiliate Products'
+  requirements:
+    _permission: 'access aff product overview'
