@@ -1,0 +1,30 @@
+{
+  "data": {
+    "sections": [
+      {
+        "items": [
+          {
+            "item_basic": {
+              "name": "Fone Bluetooth TWS Esportivo",
+              "price": 8990000,
+              "shopid": 12345,
+              "itemid": 987654,
+              "image": "abc123imagehash",
+              "historical_sold": 1234
+            }
+          },
+          {
+            "item_basic": {
+              "name": "Rel\u00f3gio Inteligente Fitness Pro",
+              "price": 15990000,
+              "shopid": 54321,
+              "itemid": 654321,
+              "image": "def456imagehash",
+              "historical_sold": 4321
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+<?php
+
+use Drupal\field\Entity\FieldStorageConfig;
+use Drupal\field\Entity\FieldConfig;
+
+/**
+ * Implements hook_install().
+ */
+function aff_trends_install() {
+  // Cria storage para field_external_id se ainda não existir.
+  if (!FieldStorageConfig::loadByName('aff_product', 'field_external_id')) {
+    FieldStorageConfig::create([
+      'field_name' => 'field_external_id',
+      'entity_type' => 'aff_product',
+      'type' => 'string',
+      'settings' => ['max_length' => 255],
+      'cardinality' => 1,
+    ])->save();
+  }
+
+  // Cria field_config se ainda não existir.
+  if (!FieldConfig::loadByName('aff_product', 'default', 'field_external_id')) {
+    FieldConfig::create([
+      'field_name' => 'field_external_id',
+      'entity_type' => 'aff_product',
+      'bundle' => 'aff_product',
+      'label' => 'External ID',
+    ])->save();
+  }
+}

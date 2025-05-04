@@ -1,0 +1,5 @@
+services:
+  plugin.manager.aff_trends_source:
+    class: Drupal\aff_trends\AffTrendsSourceManager
+    arguments: ['@container.namespaces', '@cache.default', '@module_handler']
+

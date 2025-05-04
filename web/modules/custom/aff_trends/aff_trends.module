@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_cron().
+ */
+function aff_trends_cron() {
+  $manager = \Drupal::service('plugin.manager.aff_trends_source');
+  $plugins = $manager->getDefinitions();
+  foreach (array_keys($plugins) as $plugin_id) {
+    $plugin = $manager->createInstance($plugin_id);
+    if (method_exists($plugin, 'collect')) {
+      $plugin->collect();
+    }
+  }
+}

@@ -5,3 +5,11 @@ aff_trends.product_list:
     _title: 'Affiliate Products'
   requirements:
     _permission: 'access aff product overview'
+
+aff_trends.settings:
+  path: '/admin/config/affiliates/settings'
+  defaults:
+    _form: '\Drupal\aff_trends\Form\AffTrendsSettingsForm'
+    _title: 'Affiliate Trends Settings'
+  requirements:
+    _permission: 'administer site configuration'
