@@ -34,7 +34,8 @@
         "drupal/stage_file_proxy": "^1.2",
         "drupal/webform": "^6.1",
         "drush/drush": "^10.6",
-        "kint-php/kint": "^4.1"
+        "kint-php/kint": "^4.1",
+        "vlucas/phpdotenv": "^5.6"
     },
     "conflict": {
         "drupal/drupal": "*"
