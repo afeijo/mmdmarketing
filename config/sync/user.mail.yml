@@ -3,20 +3,7 @@ _core:
 langcode: pt-br
 cancel_confirm:
   subject: 'Solicitação de cancelamento de conta para [user:display-name] em [site:name]'
-  body: |-
-    [user:display-name]
-
-    Um pedido de cancelamento de sua conta foi feito em [site:name].
-
-    Agora você pode cancelar sua conta em [site:url-brief] clicando neste link ou copiando e colando no seu navegador:
-
-    [user:cancel-url]
-
-    NOTA: O cancelamento da sua conta não é reversível.
-
-    Este link expira em um dia e nada acontecerá se ele não for usado.
-
-    -- Equipe [site:name]
+  body: "[user:display-name]\r\n\r\nUm pedido de cancelamento de sua conta foi feito em [site:name].\r\n\r\nAgora você pode cancelar sua conta em [site:url-brief] clicando neste link ou copiando e colando no seu navegador:\r\n\r\n[user:cancel-url]\r\n\r\nNOTA: O cancelamento da sua conta não é reversível.\r\n\r\nEste link expira em um dia e nada acontecerá se ele não for usado.\r\n\r\n-- Equipe [site:name]"
 password_reset:
   subject: 'Novas informações de autenticação para [user:display-name] em [site:name]'
   body: "[user:display-name],\r\n\r\nUma solicitação para resetar sua senha foi feita em [site:name].\r\n\r\nVocê pode se autenticar agora clicando neste link ou copiando e colando em seu navegador:\r\n\r\n[user:one-time-login-url]\r\n\r\nEsse link pode ser usado para se autenticar apenas uma vez e o levará a uma página onde você pode definir sua senha. Ele irá expirar dentro de um dia e, caso não seja usado, nada será alterado.\r\n\r\n--  Equipe [site:name]"

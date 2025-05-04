@@ -4,12 +4,14 @@ langcode: pt-br
 module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
+  aff_trends: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
-  ckeditor5: 0
+  ckeditor: 0
+  color: 0
   comment: 0
   config: 0
   contact: 0
@@ -27,7 +29,6 @@ module:
   filter: 0
   flood_control: 0
   google_tag: 0
-  gutenberg: 0
   help: 0
   history: 0
   image: 0
@@ -48,6 +49,7 @@ module:
   path: 0
   path_alias: 0
   quick_node_clone: 0
+  rdf: 0
   search: 0
   shortcut: 0
   system: 0

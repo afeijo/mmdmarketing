@@ -3,8 +3,8 @@ _core:
 langcode: pt-br
 definitions:
   contact__site_page:
+    enabled: false
     menu_name: footer
     parent: ''
-    weight: 0
     expanded: false
-    enabled: true
+    weight: 0

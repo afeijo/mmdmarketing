@@ -3,12 +3,13 @@ _core:
 langcode: pt-br
 uuid: 9a9c22e6-3aef-4cce-bbfe-6f3aade417e3
 name: 'MMD Marketing Digital'
-mail: mari@mindcore.org
+mail: mariana@mmdmarketing.digital
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node/1
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: pt-br
+mail_notification: ''

@@ -3,6 +3,7 @@ langcode: pt-br
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.page.default
     - filter.format.basic_html
     - filter.format.full_html
     - filter.format.webform_default

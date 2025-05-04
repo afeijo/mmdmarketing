@@ -3,13 +3,11 @@ _core:
 langcode: pt-br
 check:
   disabled_extensions: false
-  interval_days: 7
+  interval_days: 1
 fetch:
   url: ''
   max_attempts: 2
   timeout: 30
 notification:
-  emails:
-    - mariana@mmdmarketing.digital
-    - mmd@feijo.pro.br
+  emails: {  }
   threshold: all

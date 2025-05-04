@@ -1,0 +1,5 @@
+path: 'public://css_editor/claro.css'
+enabled: false
+css: "#content .main-content .main-content__container {\r\n  padding: 3.375rem 0 0;\r\n}\r\n\r\np.mb-5 {\r\n  margin-bottom: -5rem;\r\n}\r\np.mb-8 {\r\n  margin-bottom: -8rem;\r\n}\r\np.mb-10 {\r\n  margin-bottom: -10rem;\r\n}\r\n\r\n#content a img {\r\n  animation: zoom 2s infinite;\r\n}\r\n@keyframes zoom {\r\n  0% {\r\n    transform: scale(1);\r\n  }\r\n  50% {\r\n    transform: scale(1.2);\r\n  }\r\n  100% {\r\n    transform: scale(1);\r\n  }\r\n}"
+plaintext_enabled: false
+autopreview_enabled: false

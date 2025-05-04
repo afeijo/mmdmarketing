@@ -3,7 +3,6 @@ langcode: pt-br
 status: true
 dependencies:
   config:
-    - filter.format.full_html
     - media.type.image
     - node.type.article
     - node.type.page
@@ -14,7 +13,6 @@ dependencies:
     - contextual
     - field_ui
     - file
-    - filter
     - media
     - node
     - path
@@ -63,7 +61,6 @@ permissions:
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert post revisions'
-  - 'use text format full_html'
   - 'view all revisions'
   - 'view own unpublished content'
   - 'view post revisions'

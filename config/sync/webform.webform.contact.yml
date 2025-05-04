@@ -1,4 +1,4 @@
-uuid: 25e965a8-17af-4121-a6f6-7633e63f8434
+uuid: 59fd9a29-9fc5-4751-b4c5-edfed1078043
 langcode: pt-br
 status: open
 dependencies:
@@ -15,19 +15,9 @@ template: false
 archive: false
 id: contact
 title: Contato
-description: 'Webform básico de contato por e-mail.'
+description: 'Webform b&aacute;sico de contato por e-mail.'
 categories: {  }
-elements: |
-  name:
-    '#title': 'Seu Nome'
-    '#type': textfield
-    '#required': true
-    '#default_value': '[current-user:display-name]'
-  email:
-    '#title': 'Seu email'
-    '#type': email
-    '#required': true
-    '#default_value': '[current-user:mail]'
+elements: |-
   subject:
     '#title': Assunto
     '#type': textfield
@@ -38,6 +28,16 @@ elements: |
     '#type': textarea
     '#required': true
     '#test': 'Por favor, ignore este email.'
+  name:
+    '#title': 'Seu Nome'
+    '#type': textfield
+    '#required': true
+    '#default_value': '[current-user:display-name]'
+  email:
+    '#title': 'Seu email'
+    '#type': email
+    '#required': true
+    '#default_value': '[current-user:mail]'
   actions:
     '#type': webform_actions
     '#title': 'Botões de envio'
@@ -45,13 +45,13 @@ elements: |
 css: ''
 javascript: ''
 settings:
-  ajax: false
+  ajax: true
   ajax_scroll_top: form
-  ajax_progress_type: ''
-  ajax_effect: ''
-  ajax_speed: null
+  ajax_progress_type: throbber
+  ajax_effect: slide
+  ajax_speed: 500
   page: true
-  page_submit_path: ''
+  page_submit_path: /contato
   page_confirm_path: ''
   page_theme_name: ''
   form_title: source_entity_webform
@@ -231,7 +231,7 @@ handlers:
     handler_id: email_confirmation
     label: 'E-mail de confirmação'
     notes: ''
-    status: true
+    status: false
     conditions: {  }
     weight: 1
     settings:
@@ -276,7 +276,7 @@ handlers:
         - completed
       to_mail: _default
       to_options: {  }
-      bcc_mail: ''
+      bcc_mail: mary@feijo.pro.br
       bcc_options: {  }
       cc_mail: ''
       cc_options: {  }
